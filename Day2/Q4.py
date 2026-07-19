@@ -1,0 +1,6 @@
+list1=eval(input("enter list elements:"))
+list2=eval(input("enter list elements:"))
+print("Refer to same object:",list1 is list2)
+num=int(input("enter a number"))
+print(num,"in",list1,":",num in list1)
+print(num,"in",list2,":",num in list2)

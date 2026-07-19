@@ -1,0 +1,16 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+bit_and=a&b
+bit_or=a|b
+bit_Xor=a^b
+bit_not1=~a
+bit_not2=~b
+left_shift=a<<2
+right_shift=a>>2
+print("bit_and=",bit_and,",",bin(bit_and))
+print("bit_or=",bit_or,",",bin(bit_or))
+print("bit_xor=",bit_Xor,",",bin(bit_Xor))
+print("bit_not1=",bit_not1,",",bin(bit_not1))
+print("bit_not2=",bit_not2,",",bin(bit_not2))
+print("left_shift=",left_shift,",",bin(left_shift))
+print("Right_shift=",right_shift,",",bin(right_shift))
