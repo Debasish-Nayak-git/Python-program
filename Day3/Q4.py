@@ -27,4 +27,4 @@ for i in range(n):
         print("D grade")
     avg+=net_salary
 print("total employees:",n)
-print("Average salary:",(avg/5))
+print("Average salary:",(avg/n))
