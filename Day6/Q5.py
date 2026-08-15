@@ -4,7 +4,7 @@ for i in range(3):
     a=eval(input("Student marks in list:"))
     mark.append(a)
 total=lambda a:sum(a)
-avg=lambda a:(sum(a)/3)
+avg=lambda a:(sum(a)/len(a))
 high=lambda a:max(a)
 low=lambda a:min(a)
 for i in range (3):

@@ -3,20 +3,10 @@ name=input("name=")
 reg=int(input("reg="))
 marks=eval(input("marks of three subject:"))
 res=lambda a:sum(a)
-per=lambda a:(sum(a)/3)
-def grd(a):
-    if a>=90:
-        return "O"
-    elif a>=80:
-        return "E"
-    elif a>=70:
-        return "A"
-    elif a>=60:
-        return "B"
-    elif a>=50:
-        return "C"
-    else:
-        return "F"
+per=lambda a:(sum(a)/len(a))
+grd=lambda a:("O" if a>=90 else "E" if a>=80 else
+              "A" if a>=70 else "B" if a>=60 else
+              "C" if a>=50 else "F")
 print("total marks:",res(marks))
 print("percentage marks:",per(marks))
 if grd(per(marks))=="F":
