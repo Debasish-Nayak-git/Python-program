@@ -1,11 +1,11 @@
 #Print highest temparature city
-a={}
+city={}
 n=int(input("Enter no.of cities="))
 for i in range(n):
     key=input("city name=")
-    value=input("Temperature=")
-    a[key]=value
-high=max(a.values())
-for t in a:
-    if a[t]==high:
+    value=float(input("Temperature="))
+    city[key]=value
+high=max(city.values())
+for t in city:
+    if city[t]==high:
         print("City with highest temperature is:",t,"with temperature",high)
