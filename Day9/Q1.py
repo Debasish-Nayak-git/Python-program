@@ -1,7 +1,7 @@
-a={}
+dict1={}
 n=int(input("Enter no.of items="))
 for i in range(n):
     key=input("Enter key=")
     value=input("Enter value=")
-    a[key]=value
-print("Dictionary=",a)
+    dict1[key]=value
+print("Dictionary=",dict1)
