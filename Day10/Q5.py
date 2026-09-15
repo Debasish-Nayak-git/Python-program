@@ -9,10 +9,10 @@ for i in range(len(data)):
         word += 1
     else:
         count_char += 1
-    if data[i:i+3]=="the" or data[i:i+3]=="The":
+    if i<len(data)-2 and (data[i:i+3]=="the" or data[i:i+3]=="The"):
         freq_the += 1
 print("Total no of char:",count_char)
-print("Total no of word:",word)
+print("Total no of word:",word+1)
 print("Total no of lines:",lines) 
 print("Frequency of 'the':",freq_the)
 
